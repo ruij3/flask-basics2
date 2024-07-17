@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Welcome to the animal world</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<h1>Welcome to the animal world</h1>
+	<ul>
+		<li><a href="{{ url_for('chickens') }}">Learn about chickens</a></li>
+		<li><a href="{{ url_for('pandas') }}">Learn about pandas</a></li>
+</body>
+</html>
